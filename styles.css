@@ -1,0 +1,197 @@
+/* this is a program for styling*/
+/*it was made on 2Aug2016 by Arsalon N Amini-Hajibashi*/
+/*414-552-6055, aminihajibasa@gmail.com*/
+
+/*style the body with background, h1, h3 */
+
+/*creates transparancy by 50% in background*/
+	.imageclass {
+		opacity: 0.5;
+    	filter: alpha(opacity=50)
+	}
+	
+/*create a class for image background (2) */
+	.imageclass2 {
+		background-image:url("runner.png");
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+	
+	/*create a class for image background (3) */
+	.imageclass3 {
+		background-image:url("run.png");
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+	
+h1 {
+	color: lightslategrey;
+	font-family: "Time new Roman", Times, serif;
+	font-size: 40px;
+}
+
+/*directly style the heading h3*/
+h3{
+	color:white;
+	font-family: "Time new Roman", Times, serif;
+	font-size: 30px;
+}
+
+/*Font classes*/
+
+	/*create a class for things*/
+		.h1Class {
+			font-weight:bold;
+			font-family: "Times New Roman", Times, serif;
+			font-size: 40px;
+		}	
+
+	/*create a class for things*/
+		.h2Class {
+			color: blue
+			font-weight:bold;
+			font-family: "Times New Roman", Times, serif;
+			font-size: 30px;
+		}	
+		
+	/*create a class for things*/
+		.h3Class {
+			font-weight:bold;
+			font-family: "Times New Roman", Times, serif;
+			font-size: 20px;
+		}	
+
+
+
+
+/*list styling for rounded numbers, taken from red-team-design.com/css3-ordered-list-styles/ */ 
+.rounded-list a{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;   
+}
+
+.rounded-list a:hover{
+    background: #eee;
+}
+
+.rounded-list a:hover:before{
+    transform: rotate(360deg);  
+}
+
+.rounded-list a:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute; 
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #87ceeb;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+/*Box Model classes*/
+	/*create a class that sizes content, pads, adds border and margin around tables/images*/
+		
+		/*poorly written padding
+		img{
+			padding-top: 50px;
+			padding-right: 30px;
+			padding-bottom: 50px;
+			padding-lfet: 80px;
+		}
+		*/
+		
+		table{
+			padding-top: 50px;
+			padding-right: 30px;
+			padding-bottom: 50px;
+			padding-lfet: 80px;
+		}
+		
+		/**create a boarder*/
+		img.inset{
+			border-style: inset;
+		}
+		
+		table.inset{
+			border-style: inset;
+		}
+		
+		/**create a margin
+		img {
+			margin-top: 100px;
+			margin-bottom: 100px;
+			margin-right: 150px;
+			margin-left: 80px;
+		}
+		*/
+		
+		table {
+			margin-top: 100px;
+			margin-bottom: 100px;
+			margin-right: 150px;
+			margin-left: 80px;
+		}
+		
+		
+	
+	
+	
+	
+/*Semantic layout classes*/
+	
+	/*create a class that sizes and orients the header */
+	
+	
+	
+	
+	
+	/*create a class that sizes and orients the nav bar */
+	
+	
+	
+	
+	/*create a class that organizes the section, article, aside and footer*/
+	
+	
+	
+	
+	
+		/*Section */
+		
+		
+		
+		
+		/*article*/
+		
+		
+		
+		/*aside*/
+		
+		
+		
+		
+		/*footer*/
+		
+		
+		
+		
+		
+
+
+
+
+}
