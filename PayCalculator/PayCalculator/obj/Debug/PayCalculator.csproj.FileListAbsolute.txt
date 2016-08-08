@@ -1,0 +1,6 @@
+c:\users\user\documents\github\PayCalculator\PayCalculator\bin\Debug\PayCalculator.exe.config
+c:\users\user\documents\github\PayCalculator\PayCalculator\bin\Debug\PayCalculator.exe
+c:\users\user\documents\github\PayCalculator\PayCalculator\bin\Debug\PayCalculator.pdb
+c:\users\user\documents\github\PayCalculator\PayCalculator\obj\Debug\PayCalculator.csprojResolveAssemblyReference.cache
+c:\users\user\documents\github\PayCalculator\PayCalculator\obj\Debug\PayCalculator.exe
+c:\users\user\documents\github\PayCalculator\PayCalculator\obj\Debug\PayCalculator.pdb
