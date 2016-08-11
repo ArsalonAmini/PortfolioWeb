@@ -67,18 +67,16 @@ hr.small {
 
 #sidebar-wrapper {
     z-index: 1000;
+ 
     position: fixed;
+    
     right: 0;
     width: 250px;
     height: 100%;
     transform: translateX(250px);
-    overflow-y: auto;
+    
     background: #222;
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -ms-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
+    
 }
 
 .sidebar-nav {
@@ -104,7 +102,7 @@ hr.small {
 .sidebar-nav li a:hover {
     text-decoration: none;
     color: #fff;
-    background: rgba(255,255,255,0.2);
+    background: red;
 }
 
 .sidebar-nav li a:active,
@@ -131,11 +129,11 @@ hr.small {
     z-index: 1;
     position: fixed;
     top: 0;
-    right: 0;
+    right: 900px;
 }
 
 #sidebar-wrapper.active {
-    right: 250px;
+    left: 250px;
     width: 250px;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
